@@ -1,0 +1,10 @@
+## c programming drawbacks(limitations):
+
+    1. functions based(procedural language).
+    2. limitations group based development.
+    3. no reuse of function names.
+    4. either complete hiding or expose.
+    5. lack of abstraction for ex Struct.
+    6. RAII - Resource acquisition of Initialsed, means
+        scope based memory usage.
+        
