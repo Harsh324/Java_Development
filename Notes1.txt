@@ -7,4 +7,40 @@
     5. lack of abstraction for ex Struct.
     6. RAII - Resource acquisition of Initialsed, means
         scope based memory usage.
+
+
+## OOP
+
+    ## Let's you are standing by side of highway,
+       looking at the vehicles what all you notice
+
+       ## Outside : 
+
+            1. Light
+            2. Compay/ Make
+            3. Type : Sedan/Suv/Hatchback
+            4. Kind : Car/ Bus/ Tractor etc
+            5. Slow / fast / speed / acceleration.
+
+
+        ## Inside : 
+
+            1. Engine : Electric / RPM / Torque
+            2. Entertainment
+            3. Mileage
+            4. Gear / Current gear
+            5. 4x4 / 2x2
+
+
         
+
+    ## Class is the code while object is the representation of that code in main memory.
+
+    ## What is concrete we can call it object(bundle of memory in main memory)
+
+        ## Object consist of states : changeable, static
+        ## Object consist of behaviour : Drivable, Braking, Acceleration , Gear Shift, Steering etc.
+
+        ## UML : 
+    
+    
