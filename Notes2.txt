@@ -1,0 +1,21 @@
+## Virtual memory has two parts
+
+    1. Stack 
+
+        1. piece of memory so to use for allocating function parameters 
+        2. Function Stack
+        3. Call Stack
+        4. Stack unwindings
+
+        New name used to call in c++/ java
+        malloc/ calloc in c
+
+    2. Heap
+
+        ## Can be used across function call
+        ## Memory locations are arranged in form of tree as heap.
+
+
+
+## Mutable and immutable classes ?????
+## Shallow vs deep copying ?????
