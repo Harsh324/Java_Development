@@ -1,0 +1,17 @@
+# Important fact regarding software design
+
+    ## Cohesion : 
+
+        One class must do what is intended for.
+
+    ## Coupling : 
+
+
+{
+    start of the scope
+    acquiring resources - meaning, creating objects
+
+    objects created must be released from memory
+    this is true for call stack
+    end of scope
+}
