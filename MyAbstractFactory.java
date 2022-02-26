@@ -1,3 +1,4 @@
+
 public class MyAbstractFactory {}
 
 class TiagoFactory extends MyAbstractFactory{}
