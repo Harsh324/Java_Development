@@ -1,3 +1,5 @@
+package Practice;
+
 import java.util.*;  
 
 /**
@@ -19,7 +21,6 @@ public class PayoutExercise {
         Engineer En1 = new Engineer("Sam", "9876543213", "1100222122");
         Engineer En2 = new Engineer("Sid", "9876543214", "1100222121");
         Engineer En3 = new Engineer("Govind", "9876543215", "1100222120");
-
 
         Intern In1 = new Intern("Rohit Sharma", "9876543216", "1100222119");
         Intern In2 = new Intern("King Kohli", "9876543217", "1100222118");
