@@ -62,12 +62,15 @@ class Company{
      * Simulation for performing monthly payout of all employees
      */
     public void performEmployeePayout(){
-        for(Employee emp:employee_list)    
-            System.out.println(emp.get_pay());    
+        for(Employee emp:employee_list)  
+        {
+            System.out.println("Employee name = " + emp.get_name() + " , Employee Adhar = " + emp.get_aadharId() + " , Employee Phone = " + emp.get_phone());
+            System.out.println(emp.get_pay());
+        }
     }
 }
 
-
+ 
 abstract class Employee{
     private String _name;
     private String _phone;
@@ -123,6 +126,11 @@ class Executive extends Employee{
         return _basePay + _bonus;
     }
 
+    public void Print()
+    {
+        System.out.println("YES!");
+    }
+
 }
 
 class Engineer extends Employee{
@@ -150,5 +158,6 @@ class Intern extends Employee{
     int get_pay()
     {
         return _basePay + _bonus;
-    }        
+    }
+
 }
