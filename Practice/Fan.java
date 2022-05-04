@@ -67,6 +67,6 @@ class Regulator
         Reg.Knob();
         Reg.Knob();
         Reg.Knob();
-
+  
     }
 }
